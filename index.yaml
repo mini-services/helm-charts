@@ -2,7 +2,30 @@ apiVersion: v1
 entries:
   miniurl:
   - apiVersion: v2
-    created: "2021-01-01T23:50:14.359512282Z"
+    created: "2021-01-01T23:54:20.059190209Z"
+    dependencies:
+    - condition: storage.deploy
+      name: postgresql
+      repository: https://charts.bitnami.com/bitnami
+      version: 10.2.0
+    description: MiniUrl is an easy-to-use production-ready url shortener
+    digest: 37f38a4882340e833b3b2d4869b6a50bbfa0fc03813257ef513ccdc9f5ed8c06
+    home: https://github.com/SnirShechter/miniurl
+    keywords:
+    - url
+    - urls
+    - url shortener
+    maintainers:
+    - name: Snir Shechter <me@snir.sh>
+      url: https://github.com/SnirShechter
+    name: miniurl
+    sources:
+    - https://github.com/SnirShechter/miniurl
+    urls:
+    - miniurl-v0.1.17.tgz
+    version: v0.1.17
+  - apiVersion: v2
+    created: "2021-01-01T23:54:20.052288772Z"
     dependencies:
     - condition: storage.deploy
       name: postgresql
@@ -25,7 +48,7 @@ entries:
     - miniurl-v0.1.16.tgz
     version: v0.1.16
   - apiVersion: v2
-    created: "2021-01-01T23:50:14.354752544Z"
+    created: "2021-01-01T23:54:20.047747647Z"
     dependencies:
     - condition: storage.deploy
       name: postgresql
@@ -48,7 +71,7 @@ entries:
     - miniurl-v0.1.15.tgz
     version: v0.1.15
   - apiVersion: v2
-    created: "2021-01-01T23:50:14.350843594Z"
+    created: "2021-01-01T23:54:20.04276152Z"
     dependencies:
     - condition: storage.deploy
       name: postgresql
@@ -70,4 +93,4 @@ entries:
     urls:
     - miniurl-v0.1.14.tgz
     version: v0.1.14
-generated: "2021-01-01T23:50:14.34725794Z"
+generated: "2021-01-01T23:54:20.037662193Z"

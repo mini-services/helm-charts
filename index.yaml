@@ -2,7 +2,30 @@ apiVersion: v1
 entries:
   miniurl:
   - apiVersion: v2
-    created: "2021-01-10T15:08:57.693068792Z"
+    created: "2021-01-10T15:15:40.634606607Z"
+    dependencies:
+    - condition: storage.deploy
+      name: postgresql
+      repository: https://charts.bitnami.com/bitnami
+      version: 10.2.0
+    description: MiniUrl is an easy-to-use production-ready url shortener
+    digest: bb7c18e6a8ae24e5341fdbfef81687fc36e2314426bd122de43695546da09979
+    home: https://github.com/SnirShechter/miniurl
+    keywords:
+    - url
+    - urls
+    - url shortener
+    maintainers:
+    - name: Snir Shechter <me@snir.sh>
+      url: https://github.com/SnirShechter
+    name: miniurl
+    sources:
+    - https://github.com/SnirShechter/miniurl
+    urls:
+    - miniurl-v0.1.25.tgz
+    version: v0.1.25
+  - apiVersion: v2
+    created: "2021-01-10T15:15:40.629668654Z"
     dependencies:
     - condition: storage.deploy
       name: postgresql
@@ -25,7 +48,7 @@ entries:
     - miniurl-v0.1.24.tgz
     version: v0.1.24
   - apiVersion: v2
-    created: "2021-01-10T15:08:57.688538524Z"
+    created: "2021-01-10T15:15:40.624907209Z"
     dependencies:
     - condition: storage.deploy
       name: postgresql
@@ -48,7 +71,7 @@ entries:
     - miniurl-v0.1.23.tgz
     version: v0.1.23
   - apiVersion: v2
-    created: "2021-01-10T15:08:57.682163507Z"
+    created: "2021-01-10T15:15:40.619511133Z"
     dependencies:
     - condition: storage.deploy
       name: postgresql
@@ -71,7 +94,7 @@ entries:
     - miniurl-v0.1.22.tgz
     version: v0.1.22
   - apiVersion: v2
-    created: "2021-01-10T15:08:57.677494329Z"
+    created: "2021-01-10T15:15:40.613982549Z"
     dependencies:
     - condition: storage.deploy
       name: postgresql
@@ -94,7 +117,7 @@ entries:
     - miniurl-v0.1.21.tgz
     version: v0.1.21
   - apiVersion: v2
-    created: "2021-01-10T15:08:57.672970562Z"
+    created: "2021-01-10T15:15:40.609193503Z"
     dependencies:
     - condition: storage.deploy
       name: postgresql
@@ -117,7 +140,7 @@ entries:
     - miniurl-v0.1.20.tgz
     version: v0.1.20
   - apiVersion: v2
-    created: "2021-01-10T15:08:57.666917571Z"
+    created: "2021-01-10T15:15:40.599615811Z"
     dependencies:
     - condition: storage.deploy
       name: postgresql
@@ -140,7 +163,7 @@ entries:
     - miniurl-v0.1.19.tgz
     version: v0.1.19
   - apiVersion: v2
-    created: "2021-01-10T15:08:57.662155585Z"
+    created: "2021-01-10T15:15:40.594813965Z"
     dependencies:
     - condition: storage.deploy
       name: postgresql
@@ -163,7 +186,7 @@ entries:
     - miniurl-v0.1.18.tgz
     version: v0.1.18
   - apiVersion: v2
-    created: "2021-01-10T15:08:57.657641119Z"
+    created: "2021-01-10T15:15:40.588326532Z"
     dependencies:
     - condition: storage.deploy
       name: postgresql
@@ -186,7 +209,7 @@ entries:
     - miniurl-v0.1.17.tgz
     version: v0.1.17
   - apiVersion: v2
-    created: "2021-01-10T15:08:57.651297604Z"
+    created: "2021-01-10T15:15:40.58340498Z"
     dependencies:
     - condition: storage.deploy
       name: postgresql
@@ -209,7 +232,7 @@ entries:
     - miniurl-v0.1.16.tgz
     version: v0.1.16
   - apiVersion: v2
-    created: "2021-01-10T15:08:57.646584522Z"
+    created: "2021-01-10T15:15:40.578623534Z"
     dependencies:
     - condition: storage.deploy
       name: postgresql
@@ -232,7 +255,7 @@ entries:
     - miniurl-v0.1.15.tgz
     version: v0.1.15
   - apiVersion: v2
-    created: "2021-01-10T15:08:57.64149911Z"
+    created: "2021-01-10T15:15:40.572112Z"
     dependencies:
     - condition: storage.deploy
       name: postgresql
@@ -254,4 +277,4 @@ entries:
     urls:
     - miniurl-v0.1.14.tgz
     version: v0.1.14
-generated: "2021-01-10T15:08:57.634577649Z"
+generated: "2021-01-10T15:15:40.566969636Z"

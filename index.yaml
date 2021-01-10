@@ -2,7 +2,30 @@ apiVersion: v1
 entries:
   miniurl:
   - apiVersion: v2
-    created: "2021-01-10T13:11:12.502129095Z"
+    created: "2021-01-10T13:26:15.075003161Z"
+    dependencies:
+    - condition: storage.deploy
+      name: postgresql
+      repository: https://charts.bitnami.com/bitnami
+      version: 10.2.0
+    description: MiniUrl is an easy-to-use production-ready url shortener
+    digest: 3e8e3e933b1bfd96afa8918f12f5c83e7e4b935c2f205ca0b1e08b949c54aba8
+    home: https://github.com/SnirShechter/miniurl
+    keywords:
+    - url
+    - urls
+    - url shortener
+    maintainers:
+    - name: Snir Shechter <me@snir.sh>
+      url: https://github.com/SnirShechter
+    name: miniurl
+    sources:
+    - https://github.com/SnirShechter/miniurl
+    urls:
+    - miniurl-v0.1.19.tgz
+    version: v0.1.19
+  - apiVersion: v2
+    created: "2021-01-10T13:26:15.069992879Z"
     dependencies:
     - condition: storage.deploy
       name: postgresql
@@ -25,7 +48,7 @@ entries:
     - miniurl-v0.1.18.tgz
     version: v0.1.18
   - apiVersion: v2
-    created: "2021-01-10T13:11:12.495718319Z"
+    created: "2021-01-10T13:26:15.063815278Z"
     dependencies:
     - condition: storage.deploy
       name: postgresql
@@ -48,7 +71,7 @@ entries:
     - miniurl-v0.1.17.tgz
     version: v0.1.17
   - apiVersion: v2
-    created: "2021-01-10T13:11:12.490469156Z"
+    created: "2021-01-10T13:26:15.058354589Z"
     dependencies:
     - condition: storage.deploy
       name: postgresql
@@ -71,7 +94,7 @@ entries:
     - miniurl-v0.1.16.tgz
     version: v0.1.16
   - apiVersion: v2
-    created: "2021-01-10T13:11:12.4856897Z"
+    created: "2021-01-10T13:26:15.053347707Z"
     dependencies:
     - condition: storage.deploy
       name: postgresql
@@ -94,7 +117,7 @@ entries:
     - miniurl-v0.1.15.tgz
     version: v0.1.15
   - apiVersion: v2
-    created: "2021-01-10T13:11:12.479307224Z"
+    created: "2021-01-10T13:26:15.046738099Z"
     dependencies:
     - condition: storage.deploy
       name: postgresql
@@ -116,4 +139,4 @@ entries:
     urls:
     - miniurl-v0.1.14.tgz
     version: v0.1.14
-generated: "2021-01-10T13:11:12.474641182Z"
+generated: "2021-01-10T13:26:15.041271211Z"
